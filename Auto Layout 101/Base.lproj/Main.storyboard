@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="6uX-QF-f57">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -74,13 +74,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kgl-0G-NZr">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <rect key="frame" x="56" y="0.0" width="319" height="812"/>
                                 <color key="backgroundColor" red="1" green="0.83214603809999999" blue="0.60693574589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="kgl-0G-NZr" firstAttribute="leading" secondItem="Aur-aK-0wt" secondAttribute="leadingMargin" constant="-16" id="11w-Wa-NCB"/>
+                            <constraint firstItem="kgl-0G-NZr" firstAttribute="leading" secondItem="Aur-aK-0wt" secondAttribute="leadingMargin" constant="40" id="11w-Wa-NCB"/>
                             <constraint firstAttribute="bottom" secondItem="kgl-0G-NZr" secondAttribute="bottom" id="UYe-1b-3N7"/>
                             <constraint firstAttribute="trailingMargin" secondItem="kgl-0G-NZr" secondAttribute="trailing" constant="-16" id="rfF-Lo-A8v"/>
                             <constraint firstItem="kgl-0G-NZr" firstAttribute="top" secondItem="Aur-aK-0wt" secondAttribute="top" id="uXM-yX-YEu"/>
