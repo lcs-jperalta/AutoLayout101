@@ -57,14 +57,15 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="EHc-8x-ShV" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:8" id="DSf-5J-Spw"/>
                             <constraint firstAttribute="bottom" secondItem="22i-en-w2K" secondAttribute="bottom" id="DhZ-Xz-nVA"/>
-                            <constraint firstItem="a8w-NE-oVA" firstAttribute="leading" secondItem="EHc-8x-ShV" secondAttribute="trailing" id="IN4-nC-Bba"/>
+                            <constraint firstItem="a8w-NE-oVA" firstAttribute="leading" secondItem="EHc-8x-ShV" secondAttribute="trailing" constant="10" id="IN4-nC-Bba"/>
                             <constraint firstItem="EHc-8x-ShV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="TD6-jr-PGO"/>
                             <constraint firstItem="a8w-NE-oVA" firstAttribute="centerY" secondItem="EHc-8x-ShV" secondAttribute="centerY" id="WGQ-H9-DGl"/>
                             <constraint firstAttribute="trailingMargin" secondItem="22i-en-w2K" secondAttribute="trailing" id="Wzv-dl-0Ua"/>
                             <constraint firstItem="P2F-mh-jwf" firstAttribute="centerY" secondItem="EHc-8x-ShV" secondAttribute="centerY" id="Y7U-ig-39v"/>
                             <constraint firstItem="22i-en-w2K" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="hva-V1-csv"/>
-                            <constraint firstItem="P2F-mh-jwf" firstAttribute="leading" secondItem="EHc-8x-ShV" secondAttribute="trailing" constant="-100" id="mLL-LY-EPm"/>
+                            <constraint firstItem="P2F-mh-jwf" firstAttribute="trailing" secondItem="EHc-8x-ShV" secondAttribute="leading" constant="-10" id="mLL-LY-EPm"/>
                             <constraint firstItem="EHc-8x-ShV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xYK-Rc-vjg"/>
                         </constraints>
                     </view>
