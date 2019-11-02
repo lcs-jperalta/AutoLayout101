@@ -100,6 +100,50 @@
             <point key="canvasLocation" x="302" y="389"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="tmO-pe-GGh">
+            <objects>
+                <viewController id="gOI-62-gVq" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Nqw-iE-Ru9"/>
+                        <viewControllerLayoutGuide type="bottom" id="PtD-d0-IiU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PtO-pA-AkU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1FS-zS-XCs" userLabel="Red">
+                                <rect key="frame" x="0.0" y="44" width="270.66666666666669" height="345"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GFn-iY-hth" userLabel="Yellow">
+                                <rect key="frame" x="0.0" y="397" width="387" height="381"/>
+                                <color key="backgroundColor" red="0.98424340165128577" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XME-tY-bNZ" userLabel="Blue">
+                                <rect key="frame" x="243" y="44" width="131" height="345"/>
+                                <color key="backgroundColor" red="0.0" green="0.059765326123987883" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="XME-tY-bNZ" secondAttribute="trailing" id="Hlr-KG-DZJ"/>
+                            <constraint firstItem="1FS-zS-XCs" firstAttribute="top" secondItem="Nqw-iE-Ru9" secondAttribute="bottom" id="NVM-Lh-XxV"/>
+                            <constraint firstAttribute="trailing" secondItem="GFn-iY-hth" secondAttribute="trailing" id="OAg-lD-mxu"/>
+                            <constraint firstItem="1FS-zS-XCs" firstAttribute="leading" secondItem="PtO-pA-AkU" secondAttribute="leading" id="OxN-Cq-0mm"/>
+                            <constraint firstItem="PtD-d0-IiU" firstAttribute="top" secondItem="GFn-iY-hth" secondAttribute="bottom" id="a4D-Qc-4zc"/>
+                            <constraint firstItem="1FS-zS-XCs" firstAttribute="width" secondItem="PtO-pA-AkU" secondAttribute="height" multiplier="2:6" id="eNL-be-BEX"/>
+                            <constraint firstItem="XME-tY-bNZ" firstAttribute="width" secondItem="PtO-pA-AkU" secondAttribute="height" multiplier="1:6" id="ego-gV-nAg"/>
+                            <constraint firstItem="GFn-iY-hth" firstAttribute="leading" secondItem="PtO-pA-AkU" secondAttribute="leading" id="kue-AX-bzL"/>
+                            <constraint firstItem="GFn-iY-hth" firstAttribute="width" secondItem="PtO-pA-AkU" secondAttribute="height" multiplier="1:2" id="onY-ME-0cU"/>
+                            <constraint firstItem="XME-tY-bNZ" firstAttribute="top" secondItem="Nqw-iE-Ru9" secondAttribute="bottom" id="w6U-nt-9zT"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NyX-JO-J0p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1757.5999999999999" y="368.7192118226601"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="Wgm-tQ-ALd">
             <objects>
                 <viewController id="6uX-QF-f57" customClass="ViewController" customModule="Auto_Layout_101" customModuleProvider="target" sceneMemberID="viewController">
